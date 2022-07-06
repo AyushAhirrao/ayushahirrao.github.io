@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(238, 238, 238);
+}
+
+/* navbar */
+
+header {
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header #navbar {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+header #navbar img {
+    width: 12%;
+    margin-left: 5%;
+}
+
+header #navbar ul li {
+    list-style-type: none;
+}
+
+header #navbar ul li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(116, 193, 33);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+header #navbar ul li a:hover {
+    background-color: rgb(244, 244, 244);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+#get-btn {
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 20px;    
+    font-size: 1.2rem;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+#get-btn:hover {
+    color: rgb(116, 193, 33);
+    transition: all 0.4s ease 0s;
+    padding-right: 50px;
+    margin-right: -50px;
+    margin-left: 20px;
+    background: url("../Resources/Images/download_icon.svg") no-repeat right;
+    background-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.welcome {
+    display: inline-flex;
+    font-size: 4rem;
+    font-family: "San Francisco";
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.welcome::after {
+    background-color: rgb(238, 238, 238);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+    left: 0;
+    right: 0;
+    animation: typing 3s steps(28) forwards;
+}
+
+@keyframes typing {
+    90% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+        border-left: 2px solid black;
+
+
+    }
+
+    91% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+        border-left: 2px solid black;
+    }
+
+    100% {
+        width: 0%;
+        left: 100%;
+        margin: 0 -10px 0 10px;
+        border-left: 2px solid transparent;
+
+    }
+}
+
+
+.tagline {
+    display: inline-flex;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3%;
+    font-family: "San Francisco";
+
+}
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    /* margin-left: 25%; */
+    filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.15));
+}
+
+#master {
+    color: rgb(54, 54, 54);
+}
+
+#key {
+    color: rgb(116, 193, 33);
+}
+

@@ -1,0 +1,58 @@
+header #navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5%;
+}
+
+
+header #navbar img{
+    width: 6rem;
+    margin-left: 0%;
+}
+
+header #navbar ul li a {
+    font-size: 1rem;
+}
+
+
+#get-btn {
+    font-size: 1rem;
+    /* background-color: transparent; */
+    font-weight: bold;
+}
+
+#get-btn:hover {
+    color: rgb(116, 193, 33);
+    margin-left: -50px;
+    padding-left: 0px;
+}
+
+.welcome{
+    font-size: 1.7rem;
+}
+.welcome::after {
+    border: none;
+    animation: typing 3s steps(28) forwards;
+}
+@keyframes typing {
+    90% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+    }
+
+    91% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+    }
+
+    100% {
+        width: 0%;
+        left: 100%;
+        margin: 0 -10px 0 10px;
+
+    }
+}
+
+.tagline {
+    font-size: 1rem;
+}
