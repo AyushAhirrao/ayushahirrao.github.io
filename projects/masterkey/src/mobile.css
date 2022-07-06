@@ -2,16 +2,31 @@ header #navbar {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 5%;
+    padding-top: 0;
+
+
+}
+
+header {
+    /* position: relative; */
+    position: unset;
 }
 
 
-header #navbar img{
+header #navbar img {
     width: 6rem;
     margin-left: 0%;
 }
 
 header #navbar ul li a {
-    font-size: 1rem;
+    font-size: 0rem;
+}
+
+header #navbar ul li a:hover {
+    font-size: 0rem;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
 }
 
 
@@ -27,13 +42,15 @@ header #navbar ul li a {
     padding-left: 0px;
 }
 
-.welcome{
+.welcome {
     font-size: 1.7rem;
 }
+
 .welcome::after {
     border: none;
     animation: typing 3s steps(28) forwards;
 }
+
 @keyframes typing {
     90% {
         left: 100%;
