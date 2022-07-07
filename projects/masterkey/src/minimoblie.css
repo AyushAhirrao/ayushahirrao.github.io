@@ -1,0 +1,18 @@
+header #navbar img {
+    width: 4rem;
+    margin-left: 0%;
+}
+
+#get-btn {
+    font-size: 0.7rem;
+    /* font-weight: bold; */
+    padding: 10px 10px;
+}
+
+.welcome{
+    font-size: 1.2rem;
+}
+
+.tagline{
+    font-size: 0.9rem;
+}
