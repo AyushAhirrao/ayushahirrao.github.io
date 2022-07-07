@@ -46,29 +46,6 @@ header #navbar ul li a:hover {
     font-size: 1.7rem;
 }
 
-.welcome::after {
-    border: none;
-    animation: typing 3s steps(28) forwards;
-}
-
-@keyframes typing {
-    90% {
-        left: 100%;
-        margin: 0 -10px 0 10px;
-    }
-
-    91% {
-        left: 100%;
-        margin: 0 -10px 0 10px;
-    }
-
-    100% {
-        width: 0%;
-        left: 100%;
-        margin: 0 -10px 0 10px;
-
-    }
-}
 
 .tagline {
     font-size: 1rem;
