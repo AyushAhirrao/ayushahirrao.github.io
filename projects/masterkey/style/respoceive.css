@@ -1,63 +1,87 @@
-
 .welcome {
     font-size: 2.5rem;
 }
 
-.tagline{
+.tagline {
     font-size: 1.5rem;
 }
 
-header #navbar img{
+header #navbar img {
     width: 6rem;
 }
 
 #about ul li {
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#right-img {
-    margin-top: 5%;
-    margin-left: 8%;
-    align-items: center;
-}
 
-#left-para {
-
-    margin-top: 2%;
-    margin-left: 9%;
-    margin-right: 8%;
-}
-
-#right-para {
-    margin-top: 2%;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-#bottom-img {
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 8%;
-}
-
-#bottom-para {
-    margin-top: 2%;
-    margin-left: 9%;
-    margin-right: 8%;
-}
-
-.image img {
-    width: 80%;
-    height: 50%;
-    align-items: center;
-
-}
-
-#download{
+#download {
     flex-direction: column;
 }
 
 .box {
     margin: 10% 15%;
+}
+
+.paragraph {
+    font-size: 0.9rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.image {
+    margin: 0;
+    padding: 0;
+}
+
+.image img {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 0 20%;
+}
+
+#left-img {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+}
+
+#right-img {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#bottom-img {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#left-para {
+    margin-top: 1%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#right-para {
+    margin-top: 1%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#bottom-para {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }

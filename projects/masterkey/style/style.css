@@ -190,14 +190,11 @@ header #navbar ul li a:hover {
     display: flex;
 }
 
-#left-img {
-    margin-top: 5%;
-    margin-left: 8%;
-}
+
 
 .image img {
-    width: 700px;
-    height: 400px;
+    width: 550px;
+    height: 330px;
 }
 
 .para {
@@ -206,15 +203,27 @@ header #navbar ul li a:hover {
     line-height: 1.9;
 }
 
-#right-para {
-    margin-top: 12%;
-    margin-left: 10rem;
-    margin-right: 10rem;
+.heading {
+    font-size: 1.8rem;
+    color: rgb(69, 66, 66);
 }
 
+.paragraph {
+    font-size: 1.3rem;
+    color: rgb(98, 98, 98);
+}
 
+#right {
+    flex-direction: row-reverse;
+}
+
+#left-img {
+    margin-top: 10%;
+    margin-left: 8%;
+}
 
 #left-para {
+    margin-top: 5%;
     margin-left: 8%;
     margin-right: 8%;
 
@@ -222,25 +231,17 @@ header #navbar ul li a:hover {
 
 #right-img {
     margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
-
-.heading {
-    font-size: 2rem;
+#right-para {
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-.paragraph {
-    font-size: 1.5rem;
-}
-
-#right {
-    flex-direction: row-reverse;
-}
-
 
 #bottom-img {
-    margin-top: 0;
+    margin-top: 10%;
     margin-left: 8%;
 }
 
@@ -251,11 +252,7 @@ header #navbar ul li a:hover {
     margin-bottom: 5%;
 }
 
-
-
 /* downloads */
-
-
 #download {
     display: flex;
     justify-content: center;
