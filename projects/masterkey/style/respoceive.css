@@ -1,0 +1,63 @@
+
+.welcome {
+    font-size: 2.5rem;
+}
+
+.tagline{
+    font-size: 1.5rem;
+}
+
+header #navbar img{
+    width: 6rem;
+}
+
+#about ul li {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-img {
+    margin-top: 5%;
+    margin-left: 8%;
+    align-items: center;
+}
+
+#left-para {
+
+    margin-top: 2%;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+
+#right-para {
+    margin-top: 2%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#bottom-img {
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#bottom-para {
+    margin-top: 2%;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+
+.image img {
+    width: 80%;
+    height: 50%;
+    align-items: center;
+
+}
+
+#download{
+    flex-direction: column;
+}
+
+.box {
+    margin: 10% 15%;
+}
