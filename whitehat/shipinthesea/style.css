@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+  border: 4px solid #424250;
+}
+h1{
+  border: 4px solid #424250;
+    background-color: #71b4a9;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 606px;
+    padding: 8px;
+    /* margin-left: auto; */
+    margin: auto;
+    margin-top: 80px;
+    padding-left: 19px;
+}
+p{
+  border: 4px solid #424250;
+  background-color: #71b4a9;
+  box-sizing: border-box;
+  /* display: inline-block; */
+  width: 606px;
+  padding: 8px;
+  /* margin-left: auto; */
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 98px;
+  font-size: 2em;
+}
