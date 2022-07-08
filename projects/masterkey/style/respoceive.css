@@ -15,6 +15,11 @@ header #navbar img {
 }
 
 
+#menu img {
+    width: 80%;
+}
+
+
 #download {
     flex-direction: column;
 }

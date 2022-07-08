@@ -163,9 +163,12 @@ header #navbar ul li a:hover {
     display: flex;
     justify-content: center;
     margin-top: 10%;
-    /* margin-left: 25%; */
     filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.15));
 }
+#menu{
+    width: 100%;
+}
+
 
 #master {
     color: rgb(54, 54, 54);
@@ -217,9 +220,14 @@ header #navbar ul li a:hover {
     flex-direction: row-reverse;
 }
 
+#bottom{
+    padding-bottom: 5%;
+}
+
 #left-img {
     margin-top: 10%;
     margin-left: 8%;
+    filter: drop-shadow(20px 20px 8px rgba(7, 7, 7, 0.15));
 }
 
 #left-para {
@@ -232,6 +240,7 @@ header #navbar ul li a:hover {
 #right-img {
     margin-right: 10%;
     margin-top: 10%;
+    filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.15));
 }
 
 #right-para {
@@ -243,6 +252,7 @@ header #navbar ul li a:hover {
 #bottom-img {
     margin-top: 10%;
     margin-left: 8%;
+    filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.15));
 }
 
 #bottom-para {
