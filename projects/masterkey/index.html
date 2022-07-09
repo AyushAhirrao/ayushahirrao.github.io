@@ -128,7 +128,6 @@
     <div class="box" id="linux">
       <a class="downloadLink"
         href="https://github.com/AyushAhirrao/ayushahirrao.github.io/blob/main/projects/masterkey/Masterkey.zip?raw=true">
-
         <img src="Resources/Images/linux_logo.png" alt="linux" width="150px">
         <span id="lin">Linux</span>
         <button class="download-btn">Download</button>
@@ -148,18 +147,14 @@
         </script>
       </a>
     </div>
-
     <div class="box" id="windows">
-      <!-- <a href="#">
- 
-      </a> -->
-      <a class="downloadLink"
+      <a class="downloadLin"
         href="https://github.com/AyushAhirrao/ayushahirrao.github.io/blob/main/projects/masterkey/Masterkey.zip?raw=true">
         <img src="Resources/Images/windows_logo.png" alt="linux" width="150px">
         <span id="win">Windows</span>
         <button class="download-btn">Download</button>
         <script>
-          $(".downloadLink").click(
+          $(".downloadLin").click(
             function (e) {
               e.preventDefault();
 
@@ -167,7 +162,7 @@
               window.open($(this).attr("href"));
 
               //redirect current page to success page
-              window.location = "linux_installation_guide.html";
+              window.location = "windows_installation_guide.html";
               window.focus();
             }
           );
