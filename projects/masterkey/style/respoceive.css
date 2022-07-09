@@ -28,6 +28,10 @@ header #navbar img {
     margin: 10% 15%;
 }
 
+.box a span {
+    margin-top: 5%;
+}
+
 .paragraph {
     font-size: 0.9rem;
 }

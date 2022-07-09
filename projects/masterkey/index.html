@@ -10,6 +10,7 @@
   <link rel="stylesheet" media="screen and (max-width: 1000px)" href="style/respoceive.css">
   <link rel="stylesheet" media="screen and (max-width: 650px)" href="style/mobile.css">
   <link rel="stylesheet" media="screen and (max-width: 400px)" href="style/minimoblie.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <title>MasterKey</title>
 
 </head>
@@ -47,6 +48,21 @@
       <img src="Resources/Images/Terminal/menu.png" alt="Menu" width="70%">
     </div>
   </section>
+
+  <section id="masterkey">
+    <div class="app">
+      <div class="circle"><img src="Resources/Images/MasterKeyApp_logo_circle.png" alt="logo"></div>
+      <p>We’ve all been there, trying to login into our account, can't remember the password, clicking the forgot
+        password button and then changing the password making it even more difficult to remember them next time.
+        Although we wish we could keep them stored somewhere but it's not a good idea to keep our important passwords on
+        a file lying around on our computer. They must be stored securely. The MasterKey app is a project by The Sudo
+        Club coded in C programming language, intended to reduce the need of remembering every password you create and
+        promoting its ideology of having one password for all the passwords. And yes, they are stored encrypted.
+      </p>
+    </div>
+  </section>
+
+
 
   <section id="about">
     <ul>
@@ -107,30 +123,79 @@
   </section>
 
   <section id="download">
+
+
     <div class="box" id="linux">
-      <a href="#">
+      <a class="downloadLink"
+        href="https://github.com/AyushAhirrao/ayushahirrao.github.io/blob/main/projects/masterkey/Masterkey.zip?raw=true">
+
         <img src="Resources/Images/linux_logo.png" alt="linux" width="150px">
         <span id="lin">Linux</span>
         <button class="download-btn">Download</button>
+        <script>
+          $(".downloadLink").click(
+            function (e) {
+              e.preventDefault();
+
+              //open download link in new page
+              window.open($(this).attr("href"));
+
+              //redirect current page to success page
+              window.location = "linux_installation_guide.html";
+              window.focus();
+            }
+          );
+        </script>
       </a>
     </div>
 
     <div class="box" id="windows">
-      <a href="#">
+      <!-- <a href="#">
+ 
+      </a> -->
+      <a class="downloadLink"
+        href="https://github.com/AyushAhirrao/ayushahirrao.github.io/blob/main/projects/masterkey/Masterkey.zip?raw=true">
         <img src="Resources/Images/windows_logo.png" alt="linux" width="150px">
         <span id="win">Windows</span>
         <button class="download-btn">Download</button>
+        <script>
+          $(".downloadLink").click(
+            function (e) {
+              e.preventDefault();
+
+              //open download link in new page
+              window.open($(this).attr("href"));
+
+              //redirect current page to success page
+              window.location = "linux_installation_guide.html";
+              window.focus();
+            }
+          );
+        </script>
       </a>
+    </div>
+
     </div>
   </section>
 
   <section class="aboutus">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="contact">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdjISahatQ8NStGeMkqadD0w-koQrFPSJmUiQG6LLh1sdxvSg/viewform?embedded=true"
+        width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
   </section>
 
   <footer>
     <span>&#169; 2022 The Sudo Club</span>
   </footer>
+
+  <script>
+    // document.getElementById('linux-download')
+    function openTab() {
+      window.open("linux_installation_guide.html")
+    }
+  </script>
 
 </body>
 

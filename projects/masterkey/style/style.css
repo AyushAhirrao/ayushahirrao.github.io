@@ -28,7 +28,6 @@ header {
 
 header #navbar {
     display: flex;
-    display: flex;
     justify-content: space-between;
     vertical-align: middle;
     align-items: center;
@@ -88,6 +87,8 @@ header #navbar ul li a:hover {
     border: none;
     border-radius: 50px;
 }
+
+/* home */
 
 .intro {
     display: flex;
@@ -163,10 +164,9 @@ header #navbar ul li a:hover {
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    padding-bottom: 6%;
     filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.15));
-}
-#menu{
-    width: 100%;
+    width: 10 0%;
 }
 
 
@@ -175,14 +175,45 @@ header #navbar ul li a:hover {
 }
 
 #key {
-    color: rgb(116, 193, 33);
+    color: #74c121;
 }
 
+/* about app */
+.app {
+    padding: 4%;
+}
+
+#masterkey {
+    background-color: white;
+    font-family: "San Francisco", sans-serif;
+    line-height: 1.6;
+}
+
+#masterkey p {
+    padding: 5%;
+    font-size: 1rem;
+    text-align: right;
+    line-height: 2;
+}
+
+.circle {
+    border-radius: 50%;
+    float: right;
+    shape-outside: circle();
+    filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.15));
+    margin-top: 1rem;
+    margin-left: 6%;
+    margin-right: 4%;
+}
+
+.circle img {
+    width: 250px;
+    height: 250px;
+}
 
 /* about */
 #about {
-    background-color: white;
-    margin-top: 4%;
+    background-color: rgb(238, 238, 238);
 }
 
 #about ul {
@@ -192,8 +223,6 @@ header #navbar ul li a:hover {
 #about ul li {
     display: flex;
 }
-
-
 
 .image img {
     width: 550px;
@@ -220,7 +249,7 @@ header #navbar ul li a:hover {
     flex-direction: row-reverse;
 }
 
-#bottom{
+#bottom {
     padding-bottom: 5%;
 }
 
@@ -263,10 +292,12 @@ header #navbar ul li a:hover {
 }
 
 /* downloads */
+
 #download {
+    background-color: white;
     display: flex;
     justify-content: center;
-    margin: 4%;
+    padding: 4%;
 }
 
 .box {
@@ -274,7 +305,7 @@ header #navbar ul li a:hover {
 }
 
 .box a {
-    background-color: rgb(232, 231, 231);
+    background-color: rgb(247, 247, 247);
     padding: 6rem 4rem;
     padding-bottom: 12%;
     padding-top: 15%;
@@ -288,7 +319,7 @@ header #navbar ul li a:hover {
 
 .box a:hover {
     transition: all 0.3s ease 0s;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
 
@@ -340,7 +371,16 @@ header #navbar ul li a:hover {
 
 
 .aboutus {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
+}
+
+/* contact form */
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    align-items: center;
+    vertical-align: middle;
 }
 
 
@@ -361,4 +401,125 @@ footer span {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+
+
+
+/* linux-installation */
+#go-btn {
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+#go-btn:hover {
+    color: rgb(116, 193, 33);
+    transition: all 0.4s ease 0s;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-right: 20px;
+    background: url("../Resources/Images/arrow-back-outline.svg") no-repeat left;
+    background-size: 1.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks span {
+    background-color: rgb(117, 185, 117);
+    margin-top: 2%;
+    padding: 2% 5%;
+    border: 2px solid rgb(31, 198, 31);
+    border-radius: 5px;
+    color: white;
+    font-family: "San Francisco", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mig {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+/* steps */
+.step {
+    margin: 2%;
+    margin-left: 4%;
+    padding: 3%;
+    padding-left: 5%;
+}
+
+.steps ol {
+    font-family: "San Francisco", sans-serif;
+    list-style: none;
+}
+
+.step li {
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
+.step li span {
+    font-weight: 10;
+}
+
+.com {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1% 2%;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    margin: 10% 6%;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.prompt {
+    color: green;
+    font-weight: bold;
+}
+
+.command {
+    margin-top: 3%;
+}
+
+.description {
+    font-size: 1.4rem;
+    padding-left: 6%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 1.6;
+}
+
+.cd {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.unzip {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
 }

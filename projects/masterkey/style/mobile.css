@@ -3,8 +3,6 @@ header #navbar {
     flex-direction: column;
     padding: 5%;
     padding-top: 0;
-
-
 }
 
 header {
@@ -46,15 +44,15 @@ header #navbar ul li a:hover {
     font-size: 1.7rem;
 }
 
-
 .tagline {
     font-size: 1rem;
 }
 
-.heading{
+.heading {
     font-size: 1rem;
 }
-.paragraph{
+
+.paragraph {
     font-size: 0.9rem;
 }
 
@@ -64,4 +62,53 @@ header #navbar ul li a:hover {
     margin: 0;
     padding: 0;
     margin: 0 10%;
+}
+
+#masterkey p {
+    text-align: justify;
+}
+
+.circle img{
+    width: 200px;
+    height: 200px;
+}
+
+footer span{
+    font-size: 1rem;
+}
+
+
+/* linux page */
+.thanks {
+    margin: 4% 15%;
+}
+
+.thanks span {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 5% 6%;
+}
+
+.mig {
+    font-size: 1.4rem;
+}
+
+.step li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+
+.step li div {
+    text-align: justify;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.com{
+    font-size: 1rem;
 }
