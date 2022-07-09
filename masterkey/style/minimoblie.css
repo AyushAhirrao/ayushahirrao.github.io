@@ -1,0 +1,83 @@
+header #navbar img {
+    width: 4rem;
+    margin-left: 0%;
+}
+
+#get-btn {
+    font-size: 0.7rem;
+    /* font-weight: bold; */
+    padding: 10px 10px;
+}
+
+.welcome {
+    font-size: 1.2rem;
+}
+
+.tagline {
+    font-size: 0.9rem;
+}
+
+.welcome::after {
+    border: none;
+    animation: typing 3s steps(28) forwards;
+}
+
+@keyframes typing {
+    90% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+    }
+
+    91% {
+        left: 100%;
+        margin: 0 -10px 0 10px;
+    }
+
+    100% {
+        width: 0%;
+        left: 100%;
+        margin: 0 -10px 0 10px;
+
+    }
+}
+
+#masterkey p {
+        font-size: 0.8rem;
+}
+
+.circle img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* linux page */
+#go-btn {
+    font-size: 1rem;
+}
+
+.thanks span {
+    font-size: 1rem;
+    text-align: center;
+    padding: 5% 6%;
+}
+
+.mig {
+    font-size: 1.2rem;
+}
+
+.step li {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.com {
+    padding: 0% 0%;
+    font-size: 0.9rem;
+}
