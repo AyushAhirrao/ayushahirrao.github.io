@@ -94,3 +94,7 @@ header #navbar img {
     margin-right: 10%;
     text-align: center;
 }
+
+#menu video{
+    border-radius: 7px;
+}

@@ -16,6 +16,10 @@ header #navbar img {
     margin-left: 0%;
 }
 
+#menu video {
+    border-radius: 5px;
+}
+
 header #navbar ul li a {
     font-size: 0rem;
 }
@@ -68,12 +72,12 @@ header #navbar ul li a:hover {
     text-align: justify;
 }
 
-.circle img{
+.circle img {
     width: 200px;
     height: 200px;
 }
 
-footer span{
+footer span {
     font-size: 1rem;
 }
 
@@ -109,6 +113,6 @@ footer span{
     line-height: 1.4;
 }
 
-.com{
+.com {
     font-size: 1rem;
 }
