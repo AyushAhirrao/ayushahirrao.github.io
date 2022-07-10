@@ -17,6 +17,10 @@ header #navbar img {
     font-size: 0.9rem;
 }
 
+#copyright {
+    font-size: 0.7rem;
+}
+
 .welcome::after {
     border: none;
     animation: typing 3s steps(28) forwards;

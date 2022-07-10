@@ -18,6 +18,7 @@ header #navbar img {
 
 #menu video {
     border-radius: 5px;
+    width: 80%;
 }
 
 header #navbar ul li a {
@@ -49,6 +50,10 @@ header #navbar ul li a:hover {
 }
 
 .tagline {
+    font-size: 1rem;
+}
+
+#copyright {
     font-size: 1rem;
 }
 
