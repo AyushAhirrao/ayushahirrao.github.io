@@ -167,7 +167,8 @@ header #navbar ul li a:hover {
     padding-bottom: 6%;
     filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.159));
 }
-#menu video{
+
+#menu video {
     border-radius: 10px;
 }
 
@@ -504,7 +505,7 @@ footer span {
 
 .description {
     font-size: 1.4rem;
-    padding-left: 6%;
+    padding-left: 7%;
     text-align: justify;
     margin-top: 2%;
     line-height: 1.6;
@@ -524,4 +525,64 @@ footer span {
     border: none;
     border-radius: 5px;
     padding: 3px;
+}
+
+
+/* windows */
+.warning {
+    margin: 3% 6%;
+    display: flex;
+
+}
+
+.warning img {
+    width: 50%;
+}
+
+#wprotect img {
+    width: 40%;
+    padding-right: 3%;
+}
+
+#arrow {
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+#keep {
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+#extract {
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+#warn {
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+
+#more {
+    text-decoration: underline;
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+
+#run {
+    font-family: 'Courier ', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 3px 5px;
+    border-radius: 2px;
 }
