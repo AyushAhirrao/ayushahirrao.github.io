@@ -89,7 +89,6 @@ header #navbar ul li a:hover {
 }
 
 /* home */
-
 .intro {
     display: flex;
     flex-direction: column;
@@ -159,7 +158,6 @@ header #navbar ul li a:hover {
     font-size: 1.5rem;
 }
 
-
 #menu {
     display: flex;
     justify-content: center;
@@ -171,7 +169,6 @@ header #navbar ul li a:hover {
 #menu video {
     border-radius: 10px;
 }
-
 
 #master {
     color: rgb(54, 54, 54);
@@ -294,8 +291,8 @@ header #navbar ul li a:hover {
     margin-bottom: 5%;
 }
 
-/* downloads */
 
+/* downloads */
 #download {
     background-color: white;
     display: flex;
@@ -325,6 +322,8 @@ header #navbar ul li a:hover {
     background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
+
+
 
 #windows .box {
     margin-bottom: -1rem;
@@ -371,9 +370,7 @@ header #navbar ul li a:hover {
     transition: all 0.3s ease 0s;
 }
 
-
-
-.aboutus {
+.contactus {
     background-color: rgb(238, 238, 238);
 }
 
@@ -385,12 +382,6 @@ header #navbar ul li a:hover {
     align-items: center;
     vertical-align: middle;
 }
-
-
-
-
-
-
 
 
 /* footer */
@@ -479,8 +470,9 @@ footer span {
 
 }
 
-/* .step li span {
-    font-weight: 10;
+/* 
+.step li span {
+    font-weight: 600; 
 } */
 
 .com {

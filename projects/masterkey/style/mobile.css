@@ -82,9 +82,49 @@ header #navbar ul li a:hover {
     height: 200px;
 }
 
+.box a img {
+    width: 100px;
+}
+
+#download {
+    flex-direction: column;
+}
+
+.box {
+    margin: 10% 25%;
+}
+
+.box a span {
+    margin-top: 5%;
+}
+
+.box a {
+    padding: 20% 3rem;
+}
+
+.box a img {
+    width: 100px;
+}
+
+#win {
+    margin-top: 5%;
+}
+
+#lin {
+    margin-top: 5%;
+}
+
+
+.download-btn {
+    padding: 10%;
+    margin-top: 20%;
+    font-size: 1.2rem;
+}
+
 footer span {
     font-size: 1rem;
 }
+
 
 
 /* linux page */

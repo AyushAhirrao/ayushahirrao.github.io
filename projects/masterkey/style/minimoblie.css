@@ -46,7 +46,7 @@ header #navbar img {
 }
 
 #masterkey p {
-        font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 .circle img {
@@ -54,6 +54,9 @@ header #navbar img {
     height: 150px;
 }
 
+.box {
+    margin: 10% 15%;
+}
 
 /* linux page */
 #go-btn {
@@ -84,4 +87,8 @@ header #navbar img {
 .com {
     padding: 0% 0%;
     font-size: 0.9rem;
+}
+
+.download-btn {
+    padding: 10% 15%;
 }

@@ -19,18 +19,10 @@ header #navbar img {
     width: 80%;
 }
 
-
-#download {
-    flex-direction: column;
-}
-
 .box {
-    margin: 10% 15%;
+    margin: 0% 9%;
 }
 
-.box a span {
-    margin-top: 5%;
-}
 
 .paragraph {
     font-size: 0.9rem;
@@ -95,6 +87,6 @@ header #navbar img {
     text-align: center;
 }
 
-#menu video{
+#menu video {
     border-radius: 7px;
 }
