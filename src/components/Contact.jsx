@@ -15,7 +15,7 @@ export default function MyComponent(props) {
   <h1 class="contact-form__title">Contact</h1>
   <div class="contact-form__code">
     <div class="contact-form__code__block__1">
-      fetch(/AyushAhirrao, {
+      fetch(/ayushahirrao, {
 
         <div class="contact-form__code__block__2 ">
           method: 'post',
