@@ -77,7 +77,7 @@ export default function MyComponent(props) {
         setExecuteBtn(true)
         clearInterval(intervalId)
       }
-    }, 10)
+    }, 5)
     return () => clearInterval(intervalId)
   }, [contact])
 

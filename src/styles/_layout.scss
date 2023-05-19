@@ -63,8 +63,13 @@
 }
 
 .root {
+
+    &__code{
+        min-height: 80vh;
+    }
+    
     &__stop-btn-container {
-        display: block;
+        // display: block;
         position: fixed;
         top: 10px;
         right: 10px;
