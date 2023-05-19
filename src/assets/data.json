@@ -30,6 +30,9 @@
     ],
     "specialty": {
         "backend": [
+            "Node.js"
+        ],
+        "api": [
             "Express.js"
         ],
         "database": [
