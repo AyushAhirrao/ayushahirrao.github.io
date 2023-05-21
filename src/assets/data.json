@@ -12,28 +12,24 @@
         ]
     },
     "skills": [
-        "Problem Solving",
-        "Node.js",
-        "Express.js",
-        "Next.js",
-        "Linux",
-        "Python",
-        "Networking",
-        "Bash",
-        "SQL",
-        "MongoDB",
+        "NodeJS",
+        "ExpressJS",
+        "NextJS",
         "ReactJS",
         "Javascript",
-        "C/C++",
         "HTML/CSS",
+        "MongoDB",
+        "MySQL",
+        "Python",
+        "C/C++",
+        "Linux",
+        "Bash",
         "Git/Github"
     ],
     "specialty": {
         "backend": [
-            "Node.js"
-        ],
-        "api": [
-            "Express.js"
+            "NodeJS",
+            "ExpressJS"
         ],
         "database": [
             "MongoDB",
@@ -42,7 +38,7 @@
     },
     "education": {
         "Diploma": {
-            "college": "NDMVPS's RSM Polytechnic Nashik",
+            "college": "NDMVPS's RSM Polytechnic, Nashik",
             "course": "Computer Science",
             "duration": "2021 - 2024"
         }
@@ -110,7 +106,7 @@
     },
     "socials": {
         "website": "`${window.location.href}`",
-        "Linkedin": "https://www.linkedin.com/in/ayush-ahirrao-a42b4b270/",
+        "Linkedin": "https://www.linkedin.com/in/ayushahirrao",
         "Github": "https://github.com/AyushAhirrao",
         "Blog": "https://medium.com/@ayushahirrao",
         "Email": "ayushahirrao@gmail.com"
